@@ -1,0 +1,14 @@
+export type PieceColor = "white" | "black";
+
+export type PieceType =
+  | "pawn"
+  | "rook"
+  | "knight"
+  | "bishop"
+  | "queen"
+  | "king";
+
+export type Piece = {
+  type: PieceType;
+  color: PieceColor;
+};
