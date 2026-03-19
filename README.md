@@ -1,7 +1,7 @@
 # Browser Chess TS
 
-![Vite](https://img.shields.io/badge/Vite-8.0.0-646CFF?logo=vite&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-8.0.0-646CFF?logo=vite)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9.3-3178C6?logo=typescript)
 ![Status](https://img.shields.io/badge/status-in%20progress-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
