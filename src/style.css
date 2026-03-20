@@ -30,6 +30,38 @@ body {
   font-weight: 700;
 }
 
+.board-layout {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  column-gap: 0.5rem;
+}
+
+.board-area {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.ranks {
+  display: grid;
+  grid-template-rows: repeat(8, 72px);
+  align-items: center;
+  justify-items: center;
+}
+
+.files {
+  display: grid;
+  grid-template-columns: repeat(8, 72px);
+  align-items: center;
+  justify-items: center;
+}
+
+.coordinate {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
 .board {
   display: grid;
   grid-template-columns: repeat(8, 72px);
