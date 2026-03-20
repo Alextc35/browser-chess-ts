@@ -1,4 +1,5 @@
 import "./style.css";
+import { createInitialBoard } from "./chess/core/createInitialBoard";
 import { renderBoard } from "./chess/ui/renderBoard";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
@@ -14,4 +15,6 @@ if (!boardElement) {
   throw new Error("Board container not found");
 }
 
-renderBoard(boardElement);
+const board = createInitialBoard();
+
+renderBoard(boardElement, board);

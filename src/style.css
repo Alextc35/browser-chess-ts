@@ -43,6 +43,14 @@ body {
 .square {
   width: 72px;
   height: 72px;
+  display: grid;
+  place-items: center;
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 0 0 2px rgba(0,0,0,1);
 }
 
 .square.light {
