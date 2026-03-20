@@ -47,7 +47,7 @@ body {
   place-items: center;
   font-size: 4rem;
   line-height: 1;
-  font-weight: 900;
+  font-weight: 500;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 0 0 2px rgba(0,0,0,1);
