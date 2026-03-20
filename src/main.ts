@@ -1,5 +1,17 @@
-import './style.css'
+import "./style.css";
+import { renderBoard } from "./chess/ui/renderBoard";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-<section>Hola Mundo</section>
-`
+document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
+  <main class="app">
+    <h1 class="title">Browser Chess TS</h1>
+    <div id="board" class="board"></div>
+  </main>
+`;
+
+const boardElement = document.querySelector<HTMLElement>("#board");
+
+if (!boardElement) {
+  throw new Error("Board container not found");
+}
+
+renderBoard(boardElement);
