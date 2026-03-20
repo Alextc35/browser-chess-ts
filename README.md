@@ -7,6 +7,10 @@
 
 A browser-based chessboard project built with TypeScript.
 
+<p align="start">
+  <img src="assets/img/browser-chess.jpg" alt="AT" width="500">
+</p>
+
 ## Overview
 
 This project aims to build a clean and maintainable chessboard application for the browser, starting with board rendering and piece placement, and gradually adding movement rules, turn handling, captures, and full chess logic.
@@ -53,8 +57,8 @@ npm run dev
 ## Roadmap
 
 - [x] Initialize project with Vite and TypeScript
-- [ ] Render the chessboard
-- [ ] Place the initial pieces
+- [x] Render the chessboard
+- [x] Place the initial pieces
 - [ ] Select pieces
 - [ ] Show legal moves
 - [ ] Handle turns
